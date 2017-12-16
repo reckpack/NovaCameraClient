@@ -3,6 +3,7 @@
 CameraBroker::CameraBroker()
 {
     //ctor
+    potato = 'a'
 }
 
 CameraBroker::~CameraBroker()

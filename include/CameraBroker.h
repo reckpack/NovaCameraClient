@@ -1,16 +1,20 @@
 #ifndef CAMERABROKER_H
 #define CAMERABROKER_H
 
+//sudo apt-get install mosquitto
 
 class CameraBroker
 {
-    public:
-        CameraBroker();
-        virtual ~CameraBroker();
+
+    private:
+
+    int potato;
 
     protected:
 
-    private:
+     public:
+        CameraBroker();
+        virtual ~CameraBroker();
 };
 
 #endif // CAMERABROKER_H
